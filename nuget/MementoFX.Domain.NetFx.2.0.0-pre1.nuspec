@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+    <metadata>
+        <id>MementoFX.Domain.NetFx</id>
+        <version>2.0.0-pre1</version>
+        <authors>Andrea Saltarello,Mastreeno ltd</authors>
+        <owners>Andrea Saltarello,Mastreeno ltd</owners>
+        <licenseUrl>https://www.gnu.org/licenses/lgpl-3.0.txt</licenseUrl>
+        <projectUrl>https://github.com/MementoFX/MementoFX.Domain.NetFx</projectUrl>
+        <requireLicenseAcceptance>true</requireLicenseAcceptance>
+        <description>A domain implementation for MementoFX's applications running on top of .NET Framework 4.5.1+</description>
+        <summary />
+        <copyright>Copyright 2017 Mastreeno ltd. All rights reserved</copyright>
+        <tags>event sourcing, cqrs, ddd</tags>
+    </metadata>
+    <files>
+        <file src="..\src\MementoFX.Domain.NetFx\bin\Debug\MementoFX.Domain.NetFx.dll" target="lib\net451\MementoFX.Domain.NetFx.dll" />
+        <file src="..\src\MementoFX.Domain.NetFx\bin\Debug\MementoFX.Domain.NetFx.pdb" target="lib\net451\MementoFX.Domain.NetFx.pdb" />
+        <file src="..\src\MementoFX.Domain.NetFx\bin\Debug\MementoFX.Domain.NetFx.xml" target="lib\net451\MementoFX.Domain.NetFx.xml" />
+    </files>
+</package>
